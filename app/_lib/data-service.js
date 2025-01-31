@@ -58,7 +58,7 @@ export async function getGuest(email) {
     .select("*")
     .eq("email", email)
     .single();
-  console.log(data);
+  // console.log(data);
   // No error here! no guest=supabase return null! We handle the possibility of no guest in the sign in callback
   return data;
 }
@@ -189,6 +189,7 @@ export async function createBooking(newBooking) {
 // UPDATE
 
 // The updatedFields is an object which should ONLY contain the updated data
+/*
 export async function updateGuest(id, updatedFields) {
   const { data, error } = await supabase
     .from("guests")
@@ -203,6 +204,7 @@ export async function updateGuest(id, updatedFields) {
   }
   return data;
 }
+*/
 
 export async function updateBooking(id, updatedFields) {
   const { data, error } = await supabase
