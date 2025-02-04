@@ -1,10 +1,11 @@
 The Wild-Oasis-Website: a website for Resorts's guests to make an account and manage their bookings (Customer Website) <br/>
 
 
-See deployed project here : https://the-wild-oasis-adriana.vercel.app/dashboard
+See deployed project here : https://the-wild-oasis-website-one-green.vercel.app/
 
 Features:<br/>
 -Authentification and Authorization: User sign up/ sign in/ sign out and manage User Account Settings;<br/>
+-Authentification with Google provider; <br/>
 -Users can see their reservations and update them;<br/>
 -Users can see their reservations and update them;<br/>
 -User can manage their Guest profile;<br/>
