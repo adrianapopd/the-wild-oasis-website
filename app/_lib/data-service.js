@@ -39,7 +39,7 @@ export const getCabins = async function () {
     .from("cabins")
     .select("id, name, maxCapacity, regularPrice, discount, image")
     .order("name");
-  console.log("AICI API GET CABINS !!", data, error);
+
   // For testing
   // await new Promise((res) => setTimeout(res, 2000));
 
@@ -160,7 +160,7 @@ export async function createGuest(newGuest) {
     .from("guests")
     .insert([newGuest])
     .select();
-  console.log("supabase data!!!", data);
+
   if (error) {
     console.error(error);
     throw new Error("Guest could not be created");

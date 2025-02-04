@@ -6,7 +6,7 @@ async function CabinList({ filter }) {
   // noStore();
 
   const cabins = await getCabins();
-  console.log("AICII CABINS!!!", cabins);
+
   if (!cabins.length) return null;
 
   let displayedCabins;
