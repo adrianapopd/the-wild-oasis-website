@@ -23,6 +23,6 @@ Technologies:<br/>
 -Date management - date-fns Library
 
 See some sneak peeks here:
-![ss]()
+![ss](https://github.com/adrianapopd/the-wild-oasis-website/blob/main/the%20wild%20oasis%20web%201.png)
 ![ss]()
 ![ss]()
