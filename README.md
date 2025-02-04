@@ -5,7 +5,7 @@ See deployed project here : https://the-wild-oasis-website-one-green.vercel.app/
 
 Features:<br/>
 -Authentification and Authorization: User sign up/ sign in/ sign out and manage User Account Settings;<br/>
--Authentification with Google provider; <br/>
+-Authentification with NextAuth using Google provider and NextAuth Middleware; <br/>
 -Users can see their reservations and update them;<br/>
 -Users can see their reservations and update them;<br/>
 -User can manage their Guest profile;<br/>
@@ -27,13 +27,13 @@ Technologies:<br/>
 -Caching and ISR (Incremental Static Regeneration) optimizations;<br/>
 -Image optimization and responsive images with Next.js <Image/> Component; <br/>
 -Navigation <Link/> Component optimizations;<br/>
--Store Remote state (backend data) - Supabase Library
--Routing - Next.js Rounting
--Styling - Tailwind
--Remote State Management - Next.js
--UI State Management - Context API
--React Icons Library
--Date management - date-fns Library
+-Store Remote state (backend data) - Supabase Library;<br/>
+-Routing - Next.js Rounting;<br/>
+-Styling - Tailwind;<br/>
+-Remote State Management - Next.js;<br/>
+-UI State Management - Context API;<br/>
+-React Icons Library;<br/>
+-Date management - date-fns Library;<br/>
 
 See some sneak peeks here:
 ![ss](https://github.com/adrianapopd/the-wild-oasis-website/blob/main/the%20wild%20oasis%20web%201.png)
